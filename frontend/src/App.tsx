@@ -11,9 +11,17 @@ export default function App() {
     <Router>
       <div className="flex h-screen bg-gray-100 font-sans text-gray-900">
         
-        {/* Sidebar Navigation */}
-        <nav className="w-64 bg-slate-900 text-white p-6">
-          <h2 className="text-2xl font-bold mb-8 text-blue-400">E-Spec PCs</h2>
+        <nav className="w-64 bg-black text-white p-6">
+          
+          {/* Logo Section - Now much larger */}
+          <div className="mb-12 flex items-center justify-center">
+            <img 
+              src="/logo.jpg" 
+              alt="ESP Logo" 
+              className="w-36 h-auto object-contain" 
+            />
+          </div>
+
           <ul className="space-y-4">
             <li>
               <Link to="/" className="flex items-center gap-3 hover:text-blue-400 transition-colors">
@@ -38,7 +46,6 @@ export default function App() {
           </ul>
         </nav>
 
-        {/* Main Content Area */}
         <main className="flex-1 p-8 overflow-y-auto">
           <Routes>
             <Route path="/" element={<Dashboard />} />

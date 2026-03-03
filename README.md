@@ -7,17 +7,20 @@ A full-stack web application built to streamline custom PC building operations b
 ### Executive Dashboard
 Centralized hub tracking over $64,000 in inventory value and 40+ client build volumes, featuring quick-access cards for recently assembled and shipped configurations.
 
-> **[DRAG_AND_DROP_DASHBOARD_SCREENSHOT_HERE]**
+<img width="2559" height="1349" alt="Dashboard" src="https://github.com/user-attachments/assets/faefb2a8-14ae-4750-bc1f-d48f70609927" />
+
 
 ### Interactive Thermal Analytics
 Data visualization built with Recharts. Features a custom control panel to dynamically filter, isolate, and compare peak CPU/GPU load temperatures across specific client builds to identify hardware performance trends.
 
-> **[DRAG_AND_DROP_BENCHMARKS_SCREENSHOT_HERE]**
+<img width="2559" height="1348" alt="Benchmark" src="https://github.com/user-attachments/assets/4445ba3e-1895-4d37-97fa-8bcb5e99f717" />
+
 
 ### Dynamic Inventory Management
 Real-time data table connected to a PostgreSQL database, featuring live category filtering, multi-directional sorting, and stock status indicators for 50+ high-end PC components.
 
-> **[DRAG_AND_DROP_INVENTORY_SCREENSHOT_HERE]**
+<img width="2559" height="1350" alt="Inventory" src="https://github.com/user-attachments/assets/69e761eb-5509-457a-8bb9-e3c3285ba9c4" />
+
 
 ## 🚀 Features
 
